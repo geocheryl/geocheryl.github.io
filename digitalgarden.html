@@ -191,6 +191,8 @@ Error message and password prompt
 
 <li>$:/config/NewJournal/Title</li>
 
+<li>$:/config/NewTiddler/Tags</li>
+
 <li>$:/config/RelinkOnRename</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes</li>
@@ -222,6 +224,8 @@ Error message and password prompt
 <li>$:/isEncrypted</li>
 
 <li>$:/jd/fullscreen-editor/EditButton</li>
+
+<li>$:/language/DefaultNewTiddlerTitle</li>
 
 <li>$:/palette</li>
 
@@ -838,8 +842,11 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 <div created="20191215203357897" modified="20200304195543050" tags="tb" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki">
 <pre>comptext</pre>
 </div>
-<div created="20191225174624729" modified="20200304195553439" tags="tb" title="$:/config/NewJournal/Title">
-<pre>YYYY-0MM / 0DD / 0hh:0mm:0ss /</pre>
+<div created="20191225174624729" modified="20211007082136728" tags="tb" title="$:/config/NewJournal/Title">
+<pre>0DD-0MM-YYYY 0hh:0mm:0ss - </pre>
+</div>
+<div modified="20211007082146820" tags="thoughts" title="$:/config/NewTiddler/Tags">
+<pre></pre>
 </div>
 <div created="20200106214031452" modified="20200304195600676" tags="tb" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
@@ -10327,8 +10334,10 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 &lt;/html&gt;
 `</pre>
 </div>
-<div created="20200106211749103" modified="20200503200103860" tags="tb" title="$:/DefaultTiddlers">
-<pre>[[My notes]]
+<div created="20200106211749103" modified="20211007082238759" tags="tb" title="$:/DefaultTiddlers">
+<pre>$:/core/ui/SideBar/Recent
+[[My notes]]
+[[.topicList]]
 </pre>
 </div>
 <div created="20200304200133691" list="$:/jd/fullscreen-editor/EditButton $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/ViewTemplate/refscontext TiddlyBlink" modified="20200304200135317" tags="tb" title="$:/fullscreen-editor">
@@ -10369,6 +10378,9 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 &lt;/$list&gt;
 &lt;/$button&gt;
 &lt;/$navigator&gt;</pre>
+</div>
+<div created="20211007082035161" modified="20211007082051146" title="$:/language/DefaultNewTiddlerTitle">
+<pre>Working on</pre>
 </div>
 <div created="20200228210954683" modified="20200304200152865" tags="tb" title="$:/palette">
 <pre>$:/palettes/TiddlyBlink</pre>
@@ -11472,8 +11484,8 @@ exports.context = contextWidget;
 <div created="20211006235852702" modified="20211006235852702" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20211007070800442" modified="20211007070800442" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20211007070800442" modified="20211007082027518" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20211007070804509" modified="20211007070812923" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -11487,7 +11499,7 @@ exports.context = contextWidget;
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20211007074625188" list="[[Online Tidler saving solution]] [[My notes]]" modified="20211007074625188" title="$:/StoryList">
+<div created="20211007082006801" list="[[My notes]]" modified="20211007082006801" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
